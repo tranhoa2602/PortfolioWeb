@@ -3,74 +3,60 @@ import project2 from "../assets/projects/project-2.jpg";
 import project3 from "../assets/projects/project-3.jpg";
 import project4 from "../assets/projects/project-4.jpg";
 
-export const HERO_CONTENT = `I am a passionate full stack developer with a knack for crafting robust and scalable web applications. With 5 years of hands-on experience, I have honed my skills in front-end technologies like React and Next.js, as well as back-end technologies like Node.js, MySQL, PostgreSQL, and MongoDB. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
+export const HERO_CONTENT = `I am a dedicated character animator with a passion for bringing life and personality to game characters. As a recent graduate, I have developed skills in 2D and 3D animation, specializing in character rigging, movement design. My experience extends to implementing animations in Unreal Engine 5, ensuring smooth and dynamic integration into gameplay.`;
 
-export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer with a passion for creating efficient and user-friendly web applications. With 5 years of professional experience, I have worked with a variety of technologies, including React, Next.js, Node.js, MySQL, PostgreSQL, and MongoDB. My journey in web development began with a deep curiosity for how things work, and it has evolved into a career where I continuously strive to learn and adapt to new challenges. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions. Outside of coding, I enjoy staying active, exploring new technologies, and contributing to open-source projects.`;
+export const ABOUT_TEXT = `Hello, I am a recent graduate with a passion for character animation in games using Unreal Engine 5. I focus on creating realistic and dynamic movements through Animation Blueprints and State Machines. I am eager to learn and contribute to creative projects in the gaming industry.`;
 
 export const EXPERIENCES = [
   {
-    year: "2023 - Present",
-    role: "Senior Full Stack Developer",
-    company: "Google Inc.",
-    description: `Led a team in developing and maintaining web applications using JavaScript, React.js, and Node.js. Implemented RESTful APIs and integrated with MongoDB databases. Collaborated with stakeholders to define project requirements and timelines.`,
-    technologies: ["Javascript", "React.js", "Next.js", "mongoDB"],
+    year: "2024 - Present",
+    role: "Animation Game Developer",
+    company: "Work At Home",
+    description: `I focus on creating realistic and dynamic movements through Animation Blueprints and State Machines.`,
+    technologies: ["Unreal Engine", "Blueprints", "State Machine"],
   },
   {
-    year: "2022 - 2023",
+    year: "2023 - 2024",
     role: "Frontend Developer",
-    company: "Adobe",
-    description: `Designed and developed user interfaces for web applications using Next.js and React. Worked closely with backend developers to integrate frontend components with Node.js APIs. Implemented responsive designs and optimized frontend performance.`,
-    technologies: ["HTML", "CSS", "Vue.js", "mySQL"],
-  },
-  {
-    year: "2021 - 2022",
-    role: "Full Stack Developer",
-    company: "Facebook",
-    description: `Developed and maintained web applications using JavaScript, React.js, and Node.js. Designed and implemented RESTful APIs for data communication. Collaborated with cross-functional teams to deliver high-quality software products on schedule.`,
-    technologies: ["Python", "Svelte", "Three.js", "Postgres"],
-  },
-  {
-    year: "2020 - 2021",
-    role: "Software Engineer",
-    company: "Paypal",
-    description: `Contributed to the development of web applications using JavaScript, React.js, and Node.js. Managed databases and implemented data storage solutions using MongoDB. Worked closely with product managers to prioritize features and enhancements.`,
-    technologies: ["Ruby", "Rails", "PHP", "Sqlite"],
+    company: "Amit Group JSC",
+    description: `Led a team in developing and maintaining web applications using JavaScript, React.js, and Node.js. Implemented RESTful APIs and integrated with MongoDB databases. Collaborated with stakeholders to define project requirements and timelines.`,
+    technologies: ["Javascript", "React.js", "Next.js", "FireBase"],
   },
 ];
 
 export const PROJECTS = [
   {
-    title: "E-Commerce Website",
-    image: project1,
-    description:
-      "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
-    technologies: ["HTML", "CSS", "React", "Node.js", "MongoDB"],
-  },
-  {
-    title: "Task Management App",
-    image: project2,
-    description:
-      "An application for managing tasks and projects, with features such as task creation, assignment, and progress tracking.",
-    technologies: ["HTML", "CSS", "Angular", "Firebase"],
-  },
-  {
-    title: "Portfolio Website",
+    title: "SuperHot Game",
     image: project3,
     description:
-      "A personal portfolio website showcasing projects, skills, and contact information.",
-    technologies: ["HTML", "CSS", "React", "Bootstrap"],
+      "I am developing a basic first-person shooter game to master the implementation of shooting mechanics and character animations.",
+    technologies: ["Unreal Engine", "Blueprints", "State Machine"],
+  },
+  {
+    title: "Game 2D",
+    image: project1,
+    description:
+      "This is a 2D game where I animated character and enemy movements like running, jumping, dashing, and attacking using a State Machine. I set up Blueprints for character actions and designed levels with traps and obstacles to enhance gameplay. This project refined my skills in animation, level design, and Unreal Engine 5 workflows. fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
+    technologies: ["Unreal Engine", "Blueprints", "State Machine"],
+  },
+  {
+    title: "Game Zombie Survivel",
+    image: project2,
+    description:
+      "This is a zombie-themed game where I created animations for the character, including walking, running, picking up items, and shooting. I adjusted the character's skeleton to add proper weapon handling and set up Blueprints for smooth execution of actions. Additionally, I designed levels focused on survival gameplay, where the character navigates through and combats waves of zombies. This project showcases my expertise in character animation, skeletal adjustments, and level design in Unreal Engine 5.",
+    technologies: ["Unreal Engine", "Blueprints", "State Machine"],
   },
   {
     title: "Blogging Platform",
     image: project4,
     description:
       "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.",
-    technologies: ["HTML", "CSS", "Vue.js", "Express", "mySQL"],
+    technologies: ["Unreal Engine", "Blueprints", "State Machine"],
   },
 ];
 
 export const CONTACT = {
-  address: "767 Fifth Avenue, New York, NY 10153 ",
-  phoneNo: "+12 4555 666 00 ",
-  email: "me@example.com",
+  address: "140 dương thị mười Q12 TPHCM",
+  phoneNo: "0345524769",
+  email: "tranhoa29022@gmail.com",
 };
