@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 
 const Project = () => {
   return (
-    <div className="border-b border-neutal-900 pl-4">
+    <div className="border-b border-neutral-900 pl-4">
       <motion.h2
         whileInView={{ opacity: 1, y: 0 }}
         initial={{ opacity: 0, y: -100 }}
@@ -35,16 +35,35 @@ const Project = () => {
               transition={{ duration: 1.5 }}
               className="w-full max-w-xl lg:w-3/4"
             >
-              <h6 className="mb-2 font-semibold">{project.title}</h6>
-              <p className="mb-4 text-neutral-400">{project.description}</p>
-              {project.technologies.map((tech, index) => (
-                <span
-                  key={index}
-                  className="mr-2 rounded bg-neutral-900 px-2 py-1 text-sm font-medium text-purple-900"
+              <h6 className="mb-2 font-semibold">
+                <a
+                  href={project.link}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-blue-500 hover:underline"
                 >
-                  {tech}
-                </span>
-              ))}
+                  {project.title}
+                </a>
+              </h6>
+              <p className="mb-4 text-neutral-400">{project.description}</p>
+              <div className="mb-4">
+                {project.technologies.map((tech, techIndex) => (
+                  <span
+                    key={techIndex}
+                    className="mr-2 rounded bg-neutral-900 px-2 py-1 text-sm font-medium text-purple-900"
+                  >
+                    {tech}
+                  </span>
+                ))}
+              </div>
+              <a
+                href={project.link}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-block rounded bg-neutral-900 px-2 py-1 text-purple-900 hover:bg-blue-500"
+              >
+                View Details
+              </a>
             </motion.div>
           </div>
         ))}

@@ -31,6 +31,7 @@ export const PROJECTS = [
     description:
       "I am developing a basic first-person shooter game to master the implementation of shooting mechanics and character animations.",
     technologies: ["Unreal Engine", "Blueprints", "State Machine"],
+    link: "https://drive.google.com/file/d/19wzXuCPYw9K6CNa4h17-sn2KxN6HrtOw/view?usp=sharing",
   },
   {
     title: "Game 2D",
@@ -38,13 +39,15 @@ export const PROJECTS = [
     description:
       "This is a 2D game about a knight on her adventurous journey. Along the way, the female knight encounters numerous monsters and traps. She must overcome all obstacles to continue her journey.",
     technologies: ["Unreal Engine", "Blueprints", "State Machine"],
+    link: "https://drive.google.com/file/d/1XQbQ0bn-1tuqSGSkHdpLw_or3DuA1b4X/view?usp=sharing",
   },
   {
-    title: "Game Zombie Survivel",
+    title: "Game Zombie Survival",
     image: project2,
     description:
       "This is a game about a man who must survive in a forest full of zombies. Within a certain time limit, the man must kill all the zombies, or the game will end.",
     technologies: ["Unreal Engine", "Blueprints", "State Machine"],
+    link: "https://drive.google.com/file/d/15FAAmjdR6u2lLtKtVyGsyaZ6glOBStFR/view?usp=sharing",
   },
   {
     title: "Game Escape the Forest",
@@ -52,6 +55,7 @@ export const PROJECTS = [
     description:
       "This is a game about a man trapped in a forest. In the forest, there is a monster, and the man must explore the area to find batteries to unlock a gate and escape.",
     technologies: ["Unreal Engine", "Blueprints", "State Machine"],
+    link: "https://drive.google.com/file/d/1ySd3wtZKg7UdNy8qdmKcg1j7YwuSFEDg/view?usp=sharing",
   },
 ];
 
