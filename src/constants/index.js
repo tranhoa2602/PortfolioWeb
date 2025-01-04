@@ -36,21 +36,21 @@ export const PROJECTS = [
     title: "Game 2D",
     image: project1,
     description:
-      "This is a 2D game where I animated character and enemy movements like running, jumping, dashing, and attacking using a State Machine. I set up Blueprints for character actions and designed levels with traps and obstacles to enhance gameplay. This project refined my skills in animation, level design, and Unreal Engine 5 workflows. fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
+      "This is a 2D game about a knight on her adventurous journey. Along the way, the female knight encounters numerous monsters and traps. She must overcome all obstacles to continue her journey.",
     technologies: ["Unreal Engine", "Blueprints", "State Machine"],
   },
   {
     title: "Game Zombie Survivel",
     image: project2,
     description:
-      "This is a zombie-themed game where I created animations for the character, including walking, running, picking up items, and shooting. I adjusted the character's skeleton to add proper weapon handling and set up Blueprints for smooth execution of actions. Additionally, I designed levels focused on survival gameplay, where the character navigates through and combats waves of zombies. This project showcases my expertise in character animation, skeletal adjustments, and level design in Unreal Engine 5.",
+      "This is a game about a man who must survive in a forest full of zombies. Within a certain time limit, the man must kill all the zombies, or the game will end.",
     technologies: ["Unreal Engine", "Blueprints", "State Machine"],
   },
   {
-    title: "Blogging Platform",
+    title: "Game Escape the Forest",
     image: project4,
     description:
-      "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.",
+      "This is a game about a man trapped in a forest. In the forest, there is a monster, and the man must explore the area to find batteries to unlock a gate and escape.",
     technologies: ["Unreal Engine", "Blueprints", "State Machine"],
   },
 ];
